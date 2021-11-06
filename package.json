@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cos-nodejs-sdk-v5": "^2.10.6"
+  }
+}
