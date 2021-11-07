@@ -7,7 +7,7 @@ const REGION = process.env.REGION;
 const BUCKET_NAME = process.env.BUCKET_NAME;
 const GITHUB_REPO = process.env.GITHUB_REPO; // 'project/repo'
 const RELEASE_NAME_REGEX = process.env.RELEASE_NAME_REGEX;
-const COS_FILE_NAME_WITH_PATH = process.env.FILE_NAME_WITH_PATH; // 'public/XXX.tar.gz'
+const COS_FILE_NAME_WITH_PATH = process.env.COS_FILE_NAME_WITH_PATH; // 'public/XXX.tar.gz'
 
 let cos = new COS({
     SecretId: SECRET_ID,
